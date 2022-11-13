@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Pro3MVC.Entities.FacultySubjectEntity>
+
+@{
+	Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+@*@if (TempData["msg"] != null)
+{
+	<p class="alert alert-warning" role="alert" >
+		@TempData["msg"]
+	</p>
+}
+@if (TempData["success"] != null)
+{
+	<p class="alert alert-success">
+		@TempData["success"]
+	</p>
+}*@
+
+@if(Model.Count() == 0) {
+	<p class="alert alert-success">
+		The teacher does not have a subject to teach
+	</p>
+}
+
+<div class="col-sm-12 col-md-12 col-lg-8 col-xl-12 tm-block-col">
+	<div class="tm-bg-primary-dark tm-block tm-block-products" style="max-height:fit-content!important">
+		<div class="tm-product-table-container">
+			<table class="table table-hover tm-table-small tm-product-table">
+				<thead>
+					<tr>
+						<th scope="col">&nbsp;</th>
+						<th scope="col" style="display:none;">Faculty></th>
+						<th scope="col" style="display:none;">Id</th>
+						<th scope="col">Subject name</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach(var item in Model)
+					{
+						<tr>
+							<td>&nbsp</td>
+							<td style="display:none;">@Html.DisplayFor(modelItem => item.FacultyId)</td>
+							<td style="display:none;">@Html.DisplayFor(modelItem => item.Id)</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.SubjectName)
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+		<!-- table container -->
+		<a asp-area="admin" asp-controller="faculty" asp-action="addFacsub"
+		   class="btn btn-primary btn-block text-uppercase mb-3" style="color:#fff!important">
+			Add Subject
+		</a>
+	</div>
+</div>

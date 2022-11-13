@@ -1,0 +1,64 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+@using Pro3MVC.Entities;
+@model EnquiryEntity;
+
+<div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 mx-auto">
+    <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="tm-block-title d-inline-block">Add Invoice</h2>
+            </div>
+        </div>
+        <div class="row tm-edit-product-row">
+            <div class="col-xl-6 col-lg-6 col-md-12" >
+                <form asp-area="admin" asp-controller="course" asp-action="updateEnquiry" method="post" class="tm-edit-product-form" >
+                    <input type="hidden" asp-for="IdE"/>
+                        @*<p style="color: darkred">@TempData["exist"]</p>*@
+                    <div class="form-group mb-3" style="display:none;">
+                        <label>
+                            Course id
+                        </label>
+                        <input asp-for="CourseId"
+                               type="text"
+                               class="form-control validate"
+                               required />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="name">
+                            Question
+                        </label>
+                        <input asp-for="Question"
+                               type="text"
+                               class="form-control validate"
+                               required />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="name">
+                            Answer
+                        </label>
+                        <textarea asp-for="Answer" cols="50" rows="20"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary btn-block text-uppercase">Update Enquiry</button>
+                    </div>
+                </form>
+
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(function() {
+        $("#expire_date").datepicker();
+    });
+</script>
+
+
+

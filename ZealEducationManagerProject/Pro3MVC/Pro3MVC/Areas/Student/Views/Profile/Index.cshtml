@@ -1,0 +1,60 @@
+﻿@{
+    Layout = "~/Areas/Student/Views/Shared/_StudentLayout.cshtml";
+}
+
+@using Pro3MVC.Models;
+@model Account;
+
+<div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 mx-auto">
+    <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="tm-block-title" style="color:sandybrown">YOUR PROFILE</h1>
+            </div>
+        </div>
+        <div class="row tm-edit-product-row">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+
+                <div class="form-group mb-3">
+                    <label for="photo" style="color:lemonchiffon;"><b>Avatar</b></label>
+                    <div class="form-group mb-3">
+                        <img src="~/img/@ViewBag.Photo" width="200" height="200"
+                             alt="Avatar" />
+                    </div>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="name" style="color:lemonchiffon;"><b>Your Fullname</b></label>
+                    <input asp-for="Fullname" type="text" class="form-control validate" />
+                </div>
+                <div class="form-group mb-3">
+                    <label for="email" style="color:lemonchiffon;"><b>Your Email</b></label>
+                    <input asp-for="Email" type="email" class="form-control validate" />
+                </div>
+                <div class="form-group mb-3">
+                    <label for="birthday" style="color:lemonchiffon;"><b>Your Birthday</b></label>
+                    <input type="text" value="@ViewBag.Birthday" class="form-control validate" />
+                </div>
+
+                <!--
+                    <div class="form-group col-lg-6">
+                    <label for="phone">Phone</label>
+                    <input asp-for="Phone" type="tel"
+                           class="form-control validate" />
+                </div>
+                -->
+
+                <div class="col-12">
+                    <label class="tm-hide-sm">&nbsp;</label>
+                    <a asp-controller="profile" asp-action="edit" asp-route-id="@ViewBag.Id" style="background-color:lemonchiffon"
+                        class="btn btn-primary btn-block text-uppercase mb-2"><i style="color:brown">
+                        <i>
+                            <i class="fas fa-user-edit"></i>
+                            Edit Profile
+
+                        </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,258 @@
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\appsettings.json
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.staticwebassets.runtime.json
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.exe
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.deps.json
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.runtimeconfig.json
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.pdb
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.csproj.AssemblyReference.cache
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.AssemblyInfoInputs.cache
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.AssemblyInfo.cs
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.csproj.CoreCompileInputs.cache
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\scopedcss\bundle\Pro3MVC.styles.css
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.csproj.CopyComplete
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\refint\Pro3MVC.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.pdb
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.genruntimeconfig.cache
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\ref\Pro3MVC.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.RazorAssemblyInfo.cache
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.RazorAssemblyInfo.cs
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\BCrypt.Net-Core.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Huynh Minh Vu\source\repos\eProject3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\obj\Debug\net6.0\refint\Pro3MVC.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.pdb
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\appsettings.json
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.staticwebassets.runtime.json
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.exe
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.deps.json
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.runtimeconfig.json
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.pdb
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\BCrypt.Net-Core.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Humanizer.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.csproj.AssemblyReference.cache
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.AssemblyInfoInputs.cache
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.AssemblyInfo.cs
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.csproj.CoreCompileInputs.cache
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.RazorAssemblyInfo.cache
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.RazorAssemblyInfo.cs
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\obj\Debug\net6.0\scopedcss\bundle\Pro3MVC.styles.css
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.csproj.CopyComplete
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.genruntimeconfig.cache
+C:\Users\NgocTran\Downloads\Pro3MVC\Pro3MVC\obj\Debug\net6.0\ref\Pro3MVC.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\appsettings.Development.json
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\appsettings.json
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.staticwebassets.runtime.json
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.exe
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.deps.json
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.runtimeconfig.json
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.pdb
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\BCrypt.Net-Core.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Castle.Core.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Humanizer.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.csproj.AssemblyReference.cache
+D:\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.AssemblyInfoInputs.cache
+D:\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.AssemblyInfo.cs
+D:\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.csproj.CoreCompileInputs.cache
+D:\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.MvcApplicationPartsAssemblyInfo.cache
+D:\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.RazorAssemblyInfo.cache
+D:\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.RazorAssemblyInfo.cs
+D:\Pro3MVC\Pro3MVC\obj\Debug\net6.0\staticwebassets.build.json
+D:\Pro3MVC\Pro3MVC\obj\Debug\net6.0\staticwebassets.development.json
+D:\Pro3MVC\Pro3MVC\obj\Debug\net6.0\scopedcss\bundle\Pro3MVC.styles.css
+D:\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.csproj.CopyComplete
+D:\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.dll
+D:\Pro3MVC\Pro3MVC\obj\Debug\net6.0\refint\Pro3MVC.dll
+D:\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.pdb
+D:\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.genruntimeconfig.cache
+D:\Pro3MVC\Pro3MVC\obj\Debug\net6.0\ref\Pro3MVC.dll
+D:\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\appsettings.json
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.staticwebassets.runtime.json
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.exe
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.deps.json
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.runtimeconfig.json
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Pro3MVC.pdb
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\BCrypt.Net-Core.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Humanizer.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.csproj.AssemblyReference.cache
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.AssemblyInfoInputs.cache
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.AssemblyInfo.cs
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.csproj.CoreCompileInputs.cache
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.RazorAssemblyInfo.cache
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.RazorAssemblyInfo.cs
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\scopedcss\bundle\Pro3MVC.styles.css
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.csproj.CopyComplete
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\refint\Pro3MVC.dll
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.pdb
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\Pro3MVC.genruntimeconfig.cache
+C:\Users\trucd\Downloads\Pro3MVC_3\Pro3MVC\Pro3MVC\obj\Debug\net6.0\ref\Pro3MVC.dll

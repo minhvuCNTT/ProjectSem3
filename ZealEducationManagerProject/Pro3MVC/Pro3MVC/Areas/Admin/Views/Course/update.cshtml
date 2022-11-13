@@ -1,0 +1,75 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+@using Pro3MVC.Entities;
+@model CourseEntity;
+
+<div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 mx-auto">
+    <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="tm-block-title d-inline-block">Add Invoice</h2>
+            </div>
+        </div>
+        <div class="row tm-edit-product-row">
+            <div class="col-xl-6 col-lg-6 col-md-12" >
+                <form asp-area="admin" asp-controller="course" asp-action="update" method="post" class="tm-edit-product-form" >
+                    <input type="hidden" asp-for="Id"/>
+                        <p style="color: darkred">@TempData["valid"]</p>
+                    <div class="form-group mb-3">
+                        <label>
+                            Course Name
+                        </label>
+                        <input asp-for="Name"
+                               type="text"
+                               class="form-control validate"
+                               readonly/>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="name">
+                            Fee
+                        </label>
+                        <input asp-for="Fee"
+                               type="number"
+                               class="form-control validate"
+                               min="0"
+                               required />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="name">
+                            Start Date
+                        </label>
+                        <input type="text"
+                               class="form-control validate"
+                               required name="startDate" id="startDate" value="@ViewBag.startDate"/>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="name">
+                            End Date
+                        </label>
+                        <input type="text"
+                               class="form-control validate"
+                               required name="endDate" id="endDate" value="@ViewBag.endDate"/>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary btn-block text-uppercase">Update Course</button>
+                    </div>
+                </form>
+
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(function() {
+        $("#expire_date").datepicker();
+    });
+</script>
+
+
+

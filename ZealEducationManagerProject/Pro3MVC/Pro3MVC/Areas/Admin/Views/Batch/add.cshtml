@@ -1,0 +1,64 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+@using Pro3MVC.Entities;
+@model BatchEntity;
+
+<div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 mx-auto">
+    <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="tm-block-title d-inline-block">Add Batch</h2>
+            </div>
+        </div>
+        <div class="row tm-edit-product-row">
+            <div class="col-xl-6 col-lg-6 col-md-12" >
+                <form asp-area="admin" asp-controller="batch" asp-action="add" class="tm-edit-product-form" >
+                    <div class="form-group mb-3">
+                        <p style="color:red">@TempData["check"]</p>
+                        <label for="name">
+                            Batch Name
+                        </label>
+                        <input id="name"
+                               name="name"
+                               type="text"
+                               class="form-control validate"
+                               required asp-for="Name"/>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="category">Course</label>
+                        <select asp-for="CourseId" class="custom-select tm-select-accounts"
+                                id="category" asp-items="@(new SelectList(ViewBag.ListofCourse, "Id", "Name"))">
+                        </select>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="category">Status</label>
+                        <select class="custom-select tm-select-accounts"
+                                id="category" asp-for="Status">
+                            <option selected>Select status</option>
+                            <option value="true">Active</option>
+                            <option value="false">Deactive</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary btn-block text-uppercase">Add Batch Now</button>
+                    </div>
+                </form>
+
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(function() {
+        $("#expire_date").datepicker();
+    });
+</script>
+
+
+

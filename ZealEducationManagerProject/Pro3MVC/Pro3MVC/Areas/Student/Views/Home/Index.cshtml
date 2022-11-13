@@ -1,0 +1,208 @@
+﻿@{
+    Layout = "~/Areas/Student/Views/Shared/_StudentLayout.cshtml";
+}
+@model IEnumerable<Pro3MVC.Models.Account>
+
+<h1 style="color:honeydew; text-align:center; margin-top:50px; margin-bottom:60px; font-family:'Times New Roman', Times, serif">
+    <b>WELCOME &nbsp; TO &nbsp; ZEAL &nbsp; ACADEMY</b>
+   </h1>
+
+<!-- row -->
+<div class="row tm-content-row">
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 tm-block-col">
+        <div class="tm-bg-primary-dark tm-block tm-block-taller tm-block-overflow" style="padding:15px 15px; background-color:#B0C4DE; border-radius:15px;">
+            <h2 class="tm-block-title" style="font-size:25px; text-align:center; color:darkblue">Zeal is World-Class Academy</h2>
+            <table>
+                <tr>
+                    <td>
+                        <img src="~/img/U1.jpg" width="350" height="200" style="align-content:center; border-radius:20px; margin-bottom:10px;" />
+                    </td>
+                    <td>
+                        <img src="~/img/U2.jpg" width="350" height="200" style="align-content:center; border-radius:20px; margin-bottom:10px;" />
+                    </td>
+                    <td>
+                        <img src="~/img/U3.jpg" width="350" height="200" style="align-content:center; border-radius:20px; margin-bottom:10px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3 class="tm-block-title" style="color:darkblue; margin-left:60px">Effective Learning Methods</h3>
+                    </td>
+                    <td>
+                        <h3 class="tm-block-title" style="color:darkblue; margin-left:70px;">Flexible Study Time</h3>
+                    </td>
+                    <td>
+                        <h3 class="tm-block-title" style="color:darkblue; margin-left:55px;">Class Maximum 5 Students</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul class="elementor-icon-list-items" style="list-style-type:none;font-size:14px;padding:3px; font-family:Georgia, 'Times New Roman', Times, serif; color:darkblue">
+                            <li class="elementor-icon-list-item">
+                                <span class="elementor-icon-list-icon">
+                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                </span>
+                                <span class="elementor-icon-list-text">Proprietary method focused on communicative practice.</span>
+                            </li>
+                            <li class="elementor-icon-list-item">
+                                <span class="elementor-icon-list-icon">
+                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                </span>
+                                <span class="elementor-icon-list-text">Acquire natural knowledge - avoid learning first and forgetting later.</span>
+</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <div>
+                            <ul class="elementor-icon-list-items" style="list-style-type:none;font-size:14px;padding:3px; font-family:Georgia, 'Times New Roman', Times, serif; color:darkblue">
+                                <li class="elementor-icon-list-item">
+                                    <span class="elementor-icon-list-icon">
+                                        <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                    </span>
+                                    <span class="elementor-icon-list-text">No time limit, actively study at the time you want.</span>
+                                </li>
+                                <li class="elementor-icon-list-item">
+                                    <span class="elementor-icon-list-icon">
+                                        <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                    </span>
+                                    <span class="elementor-icon-list-text">Start learning immediately according to the level, no waiting time to open the class.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>
+                        <ul class="elementor-icon-list-items" style="list-style-type:none;font-size:14px;padding:3px; font-family:Georgia, 'Times New Roman', Times, serif; color:darkblue">
+                            <li class="elementor-icon-list-item">
+                                <span class="elementor-icon-list-icon">
+                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                </span>
+                                <span class="elementor-icon-list-text">You have a lot of practice time with native teachers.</span>
+                            </li>
+                            <li class="elementor-icon-list-item">
+                                <span class="elementor-icon-list-icon">
+                                    <i aria-hidden="true" class="fas fa-check-circle"></i>
+                                </span>
+                                <span class="elementor-icon-list-text">Practice maximum effective communication, improve skills quickly.</span>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!--
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 tm-block-col">
+        <div class="tm-bg-primary-dark tm-block tm-block-taller tm-block-overflow" style="padding:15px 15px; background-color:#B0C4DE; border-radius:15px;">
+            <h2 class="tm-block-title" style="font-size:25px; text-align:center; color:darkblue">Studying experience at Zeal</h2>
+        </div>
+    </div>
+    -->
+<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 tm-block-col">
+        <div class="tm-bg-primary-dark tm-block tm-block-taller tm-block-overflow">
+            <h2 class="tm-block-title">Teacher List</h2>
+
+            <div class="tm-notification-items">
+                @foreach (var teacher in ViewBag.Faculties)
+                {
+                    <div class="media tm-notification-item">
+                        <div class="tm-gray-circle"><img src="~/img/@teacher.Photo" style="height:80px; width:80px;" alt="Avatar Image" class="rounded-circle"></div>
+
+                        <div class="media-body">
+                            <p class="mb-2">
+                                <b style="color:lightcoral">@teacher.Name</b>
+                                <!--
+                                    sent you new <a href="#" class="tm-notification-link">product updates</a>. Check new orders.
+                                -->
+                            </p>
+                            <span>@teacher.Description</span>
+                        </div>
+                    </div>
+                }
+                <!--
+                    <div class="media tm-notification-item">
+                    <div class="tm-gray-circle"><img src="~/img/notification-02.jpg" alt="Avatar Image" class="rounded-circle"></div>
+                    <div class="media-body">
+                        <p class="mb-2">
+                            <b>Oliver Too</b> and <b>6 others</b> sent you existing <a href="#"
+                                                                                   class="tm-notification-link">product updates</a>. Read more reports.
+                        </p>
+                        <span class="tm-small tm-text-color-secondary">6h ago.</span>
+                    </div>
+                </div>
+                <div class="media tm-notification-item">
+                    <div class="tm-gray-circle"><img src="~/img/notification-03.jpg" alt="Avatar Image" class="rounded-circle"></div>
+                    <div class="media-body">
+                        <p class="mb-2">
+                            <b>Victoria</b> and <b>6 others</b> sent you <a href="#"
+                                                                        class="tm-notification-link">order updates</a>. Read order information.
+                        </p>
+                        <span class="tm-small tm-text-color-secondary">6h ago.</span>
+                    </div>
+                </div>
+                <div class="media tm-notification-item">
+                    <div class="tm-gray-circle"><img src="~/img/notification-01.jpg" alt="Avatar Image" class="rounded-circle"></div>
+                    <div class="media-body">
+                        <p class="mb-2">
+                            <b>Laura Cute</b> and <b>6 others</b> sent you <a href="#"
+                                                                          class="tm-notification-link">product records</a>.
+</p>
+                        <span class="tm-small tm-text-color-secondary">6h ago.</span>
+                    </div>
+                </div>
+                <div class="media tm-notification-item">
+                    <div class="tm-gray-circle"><img src="~/img/notification-02.jpg" alt="Avatar Image" class="rounded-circle"></div>
+                    <div class="media-body">
+                        <p class="mb-2">
+                            <b>Samantha</b> and <b>6 others</b> sent you <a href="#"
+                                                                        class="tm-notification-link">order stuffs</a>.
+                        </p>
+                        <span class="tm-small tm-text-color-secondary">6h ago.</span>
+                    </div>
+                </div>
+                <div class="media tm-notification-item">
+                    <div class="tm-gray-circle"><img src="~/img/notification-03.jpg" alt="Avatar Image" class="rounded-circle"></div>
+                    <div class="media-body">
+                        <p class="mb-2">
+                            <b>Sophie</b> and <b>6 others</b> sent you <a href="#"
+                                                                      class="tm-notification-link">product updates</a>.
+                        </p>
+                        <span class="tm-small tm-text-color-secondary">6h ago.</span>
+                    </div>
+                </div>
+                <div class="media tm-notification-item">
+                    <div class="tm-gray-circle"><img src="~/img/notification-01.jpg" alt="Avatar Image" class="rounded-circle"></div>
+                    <div class="media-body">
+                        <p class="mb-2">
+                            <b>Lily A</b> and <b>6 others</b> sent you <a href="#"
+                                                                      class="tm-notification-link">product updates</a>.
+                        </p>
+                        <span class="tm-small tm-text-color-secondary">6h ago.</span>
+                    </div>
+                </div>
+                <div class="media tm-notification-item">
+                    <div class="tm-gray-circle"><img src="~/img/notification-02.jpg" alt="Avatar Image" class="rounded-circle"></div>
+                    <div class="media-body">
+                        <p class="mb-2">
+                            <b>Amara</b> and <b>6 others</b> sent you <a href="#"
+                                                                     class="tm-notification-link">product updates</a>.
+                        </p>
+                        <span class="tm-small tm-text-color-secondary">6h ago.</span>
+                    </div>
+                </div>
+                <div class="media tm-notification-item">
+                    <div class="tm-gray-circle"><img src="~/img/notification-03.jpg" alt="Avatar Image" class="rounded-circle"></div>
+                    <div class="media-body">
+                        <p class="mb-2">
+<b>Cinthela</b> and <b>6 others</b> sent you <a href="#"
+                                                                        class="tm-notification-link">product updates</a>.
+                        </p>
+                        <span class="tm-small tm-text-color-secondary">6h ago.</span>
+                    </div>
+                </div>
+                -->
+
+            </div>
+        </div>
+    </div>
+    
+</div>

@@ -1,0 +1,46 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+
+<div class="col-sm-12 col-md-12 col-lg-8 col-xl-12 tm-block-col">
+    <div class="tm-bg-primary-dark tm-block tm-block-products">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="tm-block-title d-inline-block" style="font-size:2rem!important">EXAM REPORT</h1>
+            </div>
+        </div>
+        <div>
+            <div>
+                <input id="name" type="text"  placeholder="Search name" style="background-color:#54657d;color:#fff; border:0; padding: 19px 18px; border-radius: 0; height: 50px; margin-bottom: 10px; margin-right: 10px"/>
+                <button type="submit" class="btnSearchC" style="color:#fff; background-color:#f5a623; border: 2px solid #f5a623;font-size: 90%; font-weight: 600;">Search Course</button>
+            </div>
+            <div>
+                <input id="name" type="text"  placeholder="Search subject" style="background-color:#54657d;color:#fff; border:0; padding: 19px 18px; border-radius: 0; height: 50px; margin-bottom: 10px; margin-right: 10px"/>
+                <button type="submit" class="btnSearchB" style="color:#fff; background-color:#f5a623; border: 2px solid #f5a623;font-size: 90%; font-weight: 600;">Search Batch</button>
+            </div>
+            <div>
+                <input id="name" type="date"  placeholder="Search day" style="background-color:#54657d;color:#fff; border:0; padding: 19px 18px; border-radius: 0; height: 50px; margin-bottom: 10px; margin-right: 10px"/>
+                <button type="submit" class="btnSearchS" style="color:#fff; background-color:#f5a623; border: 2px solid #f5a623;font-size: 90%; font-weight: 600;">Search Subject</button>
+            </div>
+        </div>
+        <div class="tm-product-table-container">
+            <table class="table table-hover tm-table-small tm-product-table">
+                <thead>
+                    <tr>
+                        <th scope="col">&nbsp;</th>
+                        <th scope="col">Fullname</th>
+                        <th scope="col">Subject</th>
+                        <th scope="col">Score</th>
+                        <th scope="col">Occurred</th>
+                        <th scope="col">Faculty</th>
+                        <th scope="col">&nbsp;</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>
+
+

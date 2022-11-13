@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Pro3MVC.Entities.BatchSubjectEntity>
+
+@{
+	Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+@*@if (TempData["msg"] != null)
+{
+	<p class="alert alert-warning" role="alert" >
+		@TempData["msg"]
+	</p>
+}
+@if (TempData["success"] != null)
+{
+	<p class="alert alert-success">
+		@TempData["success"]
+	</p>
+}*@
+
+@if(Model.Count() == 0) {
+	<p class="alert alert-warning">
+		There is no suject in the batch
+	</p>
+}
+
+<div class="col-sm-12 col-md-12 col-lg-8 col-xl-12 tm-block-col">
+	<div class="tm-bg-primary-dark tm-block tm-block-products" style="max-height:fit-content!important">
+		<div class="tm-product-table-container">
+			<table class="table table-hover tm-table-small tm-product-table">
+				<thead>
+					<tr>
+						<th scope="col">&nbsp;</th>
+						<th scope="col" style="display:none;">Batch</th>
+						<th scope="col" style="display:none;">Id</th>
+						<th scope="col">Subject name</th>
+						<th scope="col">Sessions</th>
+						<th scope="col">&nbsp;</th>
+						<th scope="col">&nbsp;</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach(var item in Model)
+					{
+						<tr>
+							<td>&nbsp</td>
+							<td style="display:none;">@Html.DisplayFor(modelItem => item.BatchId)</td>
+							<td style="display:none;">@Html.DisplayFor(modelItem => item.Id)</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.subjectName)
+							</td>
+							<td>
+								@Html.DisplayFor(modelItem => item.Sessions)
+							</td>
+							<td>
+								<a style="background-color:lemonchiffon;"
+								class="tm-product-delete-link"><i style="color:brown"><i class="fas fa-edit"></i></i></a>
+							</td>
+							<td>
+								<a onclick="return confirm('Are you sure to delete  @item.subjectName ?')"
+								style="background-color:lemonchiffon;"
+								class="tm-product-delete-link"><i style="color:brown"><i class="fas fa-trash-alt"></i></i></a>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+		<!-- table container -->
+		<a asp-area="admin" asp-controller="batch" asp-action="addSubject"
+		   class="btn btn-primary btn-block text-uppercase mb-3" style="color:#fff!important">
+			Add new subject
+		</a>
+	</div>
+</div>

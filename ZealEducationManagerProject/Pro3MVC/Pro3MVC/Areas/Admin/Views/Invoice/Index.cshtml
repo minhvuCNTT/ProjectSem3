@@ -1,0 +1,81 @@
+﻿@{
+	Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+<div class="container mt-5">
+	<div class="row tm-content-row">
+		<div class="col-12 tm-block-col">
+			<div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+				<form method="get" asp-area="admin" asp-controller="invoice" asp-action="searchInvoice" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:aliceblue;">
+					<span style="color:lemonchiffon;font-family:'Times New Roman', Times, serif;"><b>Course name: </b></span>
+					<input type="text" name="keyword" value="@ViewBag.Keyword">
+					<button type="submit" style="color:brown; border-radius:60%; background-color:lemonchiffon; border-color:lemonchiffon">
+						<i class="fab fa-sistrix"></i>
+					</button>
+
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-sm-12 col-md-12 col-lg-8 col-xl-12 tm-block-col">
+	<div class="tm-bg-primary-dark tm-block tm-block-products">
+		<div class="tm-product-table-container">
+			<table class="table table-hover tm-table-small tm-product-table">
+				<thead>
+					<tr>
+						<th>&nbsp;</th>
+						<th scope="col">STT</th>
+						<th scope="col">Name</th>
+						<th scope="col">Student</th>
+						<th scope="col">Course</th>
+						<th scope="col">Payment</th>
+						<th scope="col">Created</th>
+						<th scope="col">Total</th>
+					</tr>
+				</thead>
+				<tbody>
+					@{
+						var stt = 1;
+					}
+					@foreach (var invoice in @ViewBag.Invoices)
+					{
+						<tr>
+							<td scope="row"><input type="checkbox" /></td>
+							<td>@(stt++)</td>
+							<td>@invoice.Name</td>
+							<td>@invoice.Account.Fullname</td>
+							<td>@invoice.Course.Name</td>
+							<td>@invoice.Payment</td>
+							<td>@invoice.Created.ToString("dd/MM/yyyy")</td>
+							<td>@invoice.Total</td>
+							@*<td>
+						<a asp-controller="invoice" asp-action="delete" asp-route-id="@invoice.Id" onclick="return confirm('Are you sure?')" class="tm-product-delete-link">
+						<i class="far fa-trash-alt tm-product-delete-icon"></i>
+						</a>
+						</td>*@
+						</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+		<!-- table container -->
+		@*<a asp-area="admin" asp-controller="invoice" asp-action="add"
+		class="btn btn-primary btn-block text-uppercase mb-3">Add new invoice</a>
+		<button class="btn btn-primary btn-block text-uppercase">
+		Delete selected invoices
+		</button>*@
+	</div>
+</div>
+
+
+
+<script>
+	$(function() {
+		$(".tm-product-name").on("click", function() {
+			window.location.href = "edit-product.html";
+		});
+	});
+</script>

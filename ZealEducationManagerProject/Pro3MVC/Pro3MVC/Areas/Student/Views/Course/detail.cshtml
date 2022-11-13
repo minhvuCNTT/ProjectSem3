@@ -1,0 +1,91 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    Layout = "~/Areas/Student/Views/Shared/_StudentLayout.cshtml";
+
+}
+@if (@ViewBag.CourseDetail != null)
+{
+    <div class="container mt-5">
+     <div class="row tm-content-row">
+         <div class="col-12 tm-block-col">
+               <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+            <b style="color:#fff">
+                Start: @ViewBag.CourseDetail[0].StartDate.ToString("dd/MM/yyyy") <br>
+                End: @ViewBag.CourseDetail[0].EndDate.ToString("dd/MM/yyyy")
+            </b>
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 tm-block-col">
+                <h3 style="color:#fff">@ViewBag.CourseName</h3>
+            </div>
+            <div class="tm-product-table-container">
+                <table class="table table-hover tm-table-small tm-product-table">
+                    <thead>
+                        <tr style="text-align:center;">
+                            <th scope="col" style="text-align:center;">Batch</th>
+                            <th scope="col">Subject</th>
+                            <th scope="col">Session</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var cou in ViewBag.CourseDetail)
+                        {
+                            <tr style="text-align:center;">
+                                <td class="tm-product-name">@cou.BatchName</td>
+                                <td>@cou.SubjectName</td>
+                                <td>@cou.SubjectSessions</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            @if (@HttpContextAccessor.HttpContext.Session.GetString("username") != null)
+            {
+                //Paypal
+                <form method="post" action="@ViewBag.payPalConfig.PostUrl">
+
+                    <input type="hidden" name="upload" value="1">
+                    <input type="hidden" name="return" value="@ViewBag.payPalConfig.ReturnUrl">
+                    <input type="hidden" name="cmd" value="_cart">
+                    <input type="hidden" name="business" value="@ViewBag.payPalConfig.Business">
+                    @*Course*@
+                    <input type="hidden" name="item_number_1" value="@ViewBag.course.Id">
+                    <input type="hidden" name="item_name_1" value="@ViewBag.course.Name">
+                    <input type="hidden" name="amount_1" value="@ViewBag.course.Fee">
+                    <input type="hidden" name="quantity_1" value="1">
+
+                    <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif" alt="Submit feedback" style="float:right;">
+
+                </form>
+                //--------------------------
+            }
+            else
+            {
+                <p style="color:#fff; float:right;">Login To Buy</p>
+            }
+        </div>
+        </div>
+        </div>
+    </div>
+}
+<div class="container mt-5">
+     <div class="row tm-content-row">
+          <div class="col-12 tm-block-col">
+               <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+                   <span style="color:lightblue;font-family:Broadway; font-size:32px"><b>Frequently Asked Questions</b></span>
+                   @foreach (var item in @ViewBag.enquiries)
+                {
+                    <div>
+                        &emsp;&emsp;<b><i class="fab fa-sistrix" style="color:coral" &nbsp;></i></b>
+                        <span style="color:darkred;font-family:'Footlight MT';font-size:28px;">
+                            <b>@item.Question</b></span>
+                        <br>
+                        <span style="color:white;font-family:'Footlight MT';font-size:22px;">&emsp; &emsp; &emsp;
+                            <i>@item.Answer</i>
+                        </span>
+                    </div>
+                }
+               </div>
+          </diV>
+     </div>
+</div>

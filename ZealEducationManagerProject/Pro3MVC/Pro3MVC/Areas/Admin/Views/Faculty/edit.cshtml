@@ -1,0 +1,69 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+@using Pro3MVC.Models;
+@model Faculty;
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+
+<script>
+    $(function() {
+        $("#birthday").datepicker({ dateFormat: 'dd-mm-yy' });
+    });
+</script>
+
+<div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 mx-auto">
+    <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="tm-block-title d-inline-block">EDIT FACULTY INFOMATION</h2>
+            </div>
+        </div>
+        <div class="row tm-edit-product-row">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+                <form method="post" asp-controller="faculty" asp-action="edit" class="tm-edit-product-form" enctype="multipart/form-data">
+                    <div class="form-group mb-3">
+                        <label for="name">
+                            Fullname
+                        </label>
+                        <input type="text" asp-for="Name"
+                               class="form-control validate" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="category">Status</label>
+                        <select class="custom-select tm-select-accounts"
+                                asp-for="Status">
+                            <option selected>Select status</option>
+                            <option value="true">Active</option>
+                            <option value="false">Deactive</option>
+                        </select>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="birthday">Birthday(dd-MM-yyyy)</label>
+                        <input type="text" name="birthday" id="birthday"
+                               class="form-control validate" 
+                               value="@ViewBag.Birthday" />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="description">Desciption</label>
+                        <textarea asp-for="Description" rows="3"
+                               class="form-control validate" ></textarea>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="description">Photo</label>
+                        <input type="file" name="file" style="padding:10px 18px; font-family:'Times New Roman', Times, serif;"
+                               class="form-control validate" accept=".jpg, .png"/>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary btn-block text-uppercase">
+                            <i class="fas fa-check"></i> &nbsp; DONE
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>

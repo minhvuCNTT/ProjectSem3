@@ -1,0 +1,68 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+
+<div class="col-sm-12 col-md-12 col-lg-8 col-xl-12 tm-block-col">
+    <div class="tm-bg-primary-dark tm-block tm-block-products">
+        <div class="tm-product-table-container">
+            <table class="table table-hover tm-table-small tm-product-table">
+                <thead>
+                    <tr>
+                        <th scope="col">&nbsp;</th>
+                        <th scope="col">Material Name</th>
+                        <th scope="col">Filename</th>
+                        <th scope="col">Subject</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"><input type="checkbox" /></th>
+                        <td class="tm-product-name">Material 1</td>
+                        <td>abc.jpg</td>
+                        <td>Subject 1</td>
+                        <td>Actived</td>
+                        <td>
+                            <a href="#" class="tm-product-delete-link">
+                                <i class="far fa-trash-alt tm-product-delete-icon"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><input type="checkbox" /></th>
+                        <td class="tm-product-name">Material 2</td>
+                        <td>edf.jpg</td>
+                        <td>Subject 1</td>
+                        <td>Actived</td>
+                        <td>
+                            <a href="#" class="tm-product-delete-link">
+                                <i class="far fa-trash-alt tm-product-delete-icon"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        <!-- table container -->
+        <a asp-area="admin" asp-controller="material" asp-action="add"
+           class="btn btn-primary btn-block text-uppercase mb-3">Add new material</a>
+        <button class="btn btn-primary btn-block text-uppercase">
+            Delete selected material
+        </button>
+    </div>
+</div>
+
+
+
+<script>
+    $(function() {
+        $(".tm-product-name").on("click", function() {
+            window.location.href = "edit-product.html";
+        });
+    });
+</script>
+

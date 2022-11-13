@@ -1,0 +1,43 @@
+﻿@{
+    Layout = "~/Areas/Student/Views/Shared/_StudentLayout.cshtml";
+
+}
+
+@model IEnumerable<Pro3MVC.Models.Course>
+
+<div class="col-sm-12 col-md-12 col-lg-8 col-xl-12 tm-block-col">
+    <div class="tm-bg-primary-dark tm-block tm-block-products">
+        <div class="tm-product-table-container">
+            @if (@ViewBag.Courses != null)
+            {
+                <table class="table table-hover tm-table-small tm-product-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">COURSE NAME</th>
+                            <th scope="col">UNIT SOLD</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var acc in ViewBag.Courses)
+                        {
+                            <tr>
+                                <td class="tm-product-name"><a asp-area="student" asp-controller="course" asp-action="detail" asp-route-id="@acc.Id" style="color:#fff!important">@acc.Name</a></td>
+                                <td>@acc.Fee</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    $(function() {
+        $(".tm-product-name").on("click", function() {
+            window.location.href = "edit-product.html";
+        });
+    });
+</script>

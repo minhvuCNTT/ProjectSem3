@@ -1,0 +1,86 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+<div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 mx-auto">
+    <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="tm-block-title d-inline-block">Add Material</h2>
+            </div>
+        </div>
+        <div class="row tm-edit-product-row">
+            <div class="col-xl-6 col-lg-6 col-md-12" >
+                <form action="" class="tm-edit-product-form" >
+                    <div class="form-group mb-3">
+                        <label for="name">
+                            Material Name
+                        </label>
+                        <input id="name"
+                               name="name"
+                               type="text"
+                               class="form-control validate"
+                               required />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="category">Subject</label>
+                        <select class="custom-select tm-select-accounts"
+                                id="category">
+                            <option selected>Select subject</option>
+                            <option value="1">Subject 1</option>
+                            <option value="2">Subject 2</option>
+                            <option value="3">.....</option>
+                        </select>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="name">
+                            Link 
+                        </label>
+                        <input id="name"
+                               name="name"
+                               type="text"
+                               class="form-control validate"
+                               required />
+                    </div>
+                </form>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 mx-auto mb-4" style="margin-top:45px;">
+                <div class="form-group mb-3" >
+                        <input id="name"
+                               name="name"
+                               type="text"
+                               class="form-control validate"
+                               required />
+                        <input style="margin-top:20px;"
+                    type="button"
+                    class="btn btn-primary btn-block mx-auto"
+                    value="UPLOAD FILE"
+                    onclick="document.getElementById('fileInput').click();"
+                  />
+                    </div>
+                    <div class="form-group mb-3" style="margin-top:15px;">
+                        <label for="category">Status</label>
+                        <select class="custom-select tm-select-accounts"
+                                id="category">
+                            <option selected>Select status</option>
+                            <option value="1">Active</option>
+                            <option value="2">Deactive</option>
+                        </select>
+                    </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary btn-block text-uppercase">Add Material Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(function() {
+        $("#expire_date").datepicker();
+    });
+</script>
+
+

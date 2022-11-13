@@ -1,0 +1,78 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+@model IEnumerable<Pro3MVC.Models.Account>
+
+<div class="container mt-5">
+    <div class="row tm-content-row">
+        <div class="col-12 tm-block-col">
+            <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+                <form method="get" asp-controller="account" asp-action="search" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:aliceblue;">
+                    <span style="color:lemonchiffon;font-family:'Times New Roman', Times, serif;"><b>Name: </b></span> 
+                    <input type="text" name="keyword" value="@ViewBag.Keyword">
+                    <button type="submit" style="color:brown; border-radius:60%; background-color:lemonchiffon; border-color:lemonchiffon">
+                        <i class="fab fa-sistrix"></i>
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="col-sm-12 col-md-12 col-lg-8 col-xl-12 tm-block-col" >
+    <div class="tm-bg-primary-dark tm-block tm-block-products" style="max-height:fit-content;">
+        <div class="tm-product-table-container" style="max-height:700px;">
+            <h2 style="color:cornsilk;font-family:'Times New Roman', Times, serif"><b>LIST OF STUDENT</b></h2>
+            @if (@ViewBag.Accounts != null)
+            {
+                <table class="table table-hover tm-table-small tm-product-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Fullname</th>
+                            <th scope="col">Username</th>
+                            <th scope="col">Date of Birth</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Photo</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">&nbsp;</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var acc in ViewBag.Accounts)
+                        {
+                            <tr>
+                                <td class="tm-product-name">@acc.Fullname</td>
+                                <td>@acc.Username</td>
+                                <td>@acc.Dob.ToString("dd/MM/yyyy")</td>
+                                <td>@acc.Email</td>
+                                <td><img src="~/img/@acc.Photo" width="120" height="120" /></td>
+                                <td>@(acc.Status ? "Active" : "Inactive")</td>
+                                <td>
+                                    <a asp-area="admin" asp-controller="account" asp-action="edit" style="background-color:lemonchiffon;"
+                               asp-route-id="@acc.Id" class="tm-product-delete-link"><i style="color:brown"><i class="fas fa-edit"></i></i></a>
+                                </td>
+                            </tr>
+                        }
+</tbody>
+                </table>
+            }
+        </div>
+        <!-- table container -->
+        <a asp-area="admin" asp-controller="account" asp-action="add"
+           class="btn btn-primary btn-block text-uppercase mb-3"><i class="fas fa-plus"></i> Add new student</a>
+    </div>
+</div>
+
+
+
+<script>
+    $(function() {
+        $(".tm-product-name").on("click", function() {
+            window.location.href = "edit-product.html";
+        });
+    });
+</script>

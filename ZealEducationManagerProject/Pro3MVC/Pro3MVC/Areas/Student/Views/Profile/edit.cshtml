@@ -1,0 +1,72 @@
+﻿@{
+    Layout = "~/Areas/Student/Views/Shared/_StudentLayout.cshtml";
+}
+
+@using Pro3MVC.Models;
+@model Account;
+
+<div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 mx-auto">
+    <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="tm-block-title" style="color:sandybrown">CHANGE YOUR PROFILE</h2>
+            </div>
+        </div>
+        <div class="row tm-edit-product-row">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+                <form method="post" asp-area="student" asp-controller="profile" asp-action="edit" asp-route-id="@ViewBag.Id" class="tm-edit-product-form" enctype="multipart/form-data" class="tm-signup-form row">
+                    <div class="tm-product-img-edit mx-auto">
+                        <h2 class="tm-block-title" style="color:lemonchiffon;">Avatar</h2>
+                        <div class="tm-avatar-container">
+                            <img src="~/img/@ViewBag.Photo" width="120" height="120" 
+                                 alt="Avatar" class="tm-avatar img-fluid mb-4" />
+                                 <input type="file" name="file" style="padding:10px 18px; font-family:'Times New Roman', Times, serif;"
+                               class="form-control validate" accept=".jpg, .png"/>
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="name" style="color:lemonchiffon;">Your Fullname</label>
+                        <input asp-for="Fullname" type="text" style="font-style:italic"
+                               class="form-control validate" required />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="password" style="color:lemonchiffon;">Password</label><br />
+                        <label for="password" style="color:lightcoral;font-size:13px;font-style:italic">
+                            &nbsp; * If you change -> enter, if you don't change -> skip
+                        </label>
+                        <input asp-for="Password" type="password" style="font-style:italic"
+                                class="form-control validate"/>
+                    <div class="form-group mb-3">
+                        <label for="confirmpassword" style="color:lemonchiffon;">Confirm Password</label>&nbsp;
+                        <label style="color:lightpink;"><b><i>@ViewBag.Error</i></b></label>
+                        <input type="password" name="confirmpassword" style="font-style:italic"
+                            class="form-control validate"/>
+                    <div class="form-group mb-3">
+                        <label for="email" style="color:lemonchiffon;">Your Email</label>
+                        <input asp-for="Email" type="email" style="font-style:italic"
+                               class="form-control validate" required />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="birthday" style="color:lemonchiffon;">Your Birthday (dd-MM-yyyy)</label>
+<input type="text" name="birthday" id="birthday" style="font-style:italic"
+                               class="form-control validate" value="@ViewBag.Birthday" />
+                    </div>
+                    <!--
+                        <div class="form-group col-lg-6">
+                        <label for="phone">Phone</label>
+                        <input asp-for="Phone" type="tel"
+                               class="form-control validate" />
+                    </div>
+                    -->
+                    <div class="col-12">
+                        <label class="tm-hide-sm">&nbsp;</label>
+                            <button type="submit" class="btn btn-primary btn-block text-uppercase">
+                                <i class="fas fa-check"></i>
+                            Update Your Profile
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

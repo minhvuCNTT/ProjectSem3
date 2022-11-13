@@ -1,0 +1,79 @@
+﻿@model IEnumerable<Pro3MVC.Entities.BatchEntity>
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+@if (TempData["fail"] != null)
+{
+	<p class="alert alert-warning" role="alert" >
+		@TempData["fail"]
+	</p>
+}
+@if (TempData["msg"] != null)
+{
+	<p class="alert alert-success">
+		@TempData["msg"]
+	</p>
+}
+
+<div class="col-sm-12 col-md-12 col-lg-8 col-xl-12 tm-block-col">
+    <div class="tm-bg-primary-dark tm-block tm-block-products" style="max-height:fit-content!important">
+        <div class="tm-product-table-container">
+            <h2 style="color:cornsilk;font-family:'Times New Roman', Times, serif"><b>LIST OF BATCH</b></h2>
+            <table class="table table-hover tm-table-small tm-product-table">
+                <thead>
+                    <tr>
+                        <th scope="col">Batch Name</th>
+                        <th scope="col">Course Name</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                    <tr>
+                        <td><a asp-area="admin" asp-controller="batch" asp-action="listSubject" 
+								style="color:#fff!important" asp-route-id="@item.Id">
+                                @Html.DisplayFor(modelItem => item.Name)</a>
+                        </td>
+                        <td>@Html.DisplayFor(modelItem => item.courseName)</td>
+                        <td>
+                            @(@item.Status ? "Actived" : "Deactived")
+                        </td>
+                        <td>
+                            <a asp-area="admin" asp-controller="batch" asp-action="update" asp-route-id="@item.Id" 
+                                style="background-color:lemonchiffon;"
+								class="tm-product-delete-link"><i style="color:brown"><i class="fas fa-edit"></i></i></a>
+                                &nbsp; &nbsp; &nbsp;
+                            <a asp-area="admin" asp-controller="batch" asp-action="delete" asp-route-id="@item.Id" 
+                                style="background-color:lemonchiffon;" onclick="return confirm('Are you sure to delete  @item.Name ?')"
+								class="tm-product-delete-link"><i style="color:brown"><i class="fas fa-trash-alt"></i></i></a>
+                        </td>
+                    </tr>
+                    }
+                    
+                </tbody>
+            </table>
+        </div>
+        <!-- table container -->
+        <a asp-area="admin" asp-controller="batch" asp-action="add"
+           class="btn btn-primary btn-block text-uppercase mb-3">
+           <i class="fas fa-plus">&nbsp; Add batch</i>
+       </a>
+        
+    </div>
+</div>
+
+
+
+<script>
+    $(function() {
+        $(".tm-product-name").on("click", function() {
+            window.location.href = "edit-product.html";
+        });
+    });
+</script>
+

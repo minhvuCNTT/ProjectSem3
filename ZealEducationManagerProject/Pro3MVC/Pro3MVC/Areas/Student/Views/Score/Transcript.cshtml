@@ -1,0 +1,70 @@
+﻿@using Pro3MVC.Models;
+
+@{
+    Layout = "~/Areas/Student/Views/Shared/_StudentLayout.cshtml";
+
+}
+
+<div class="col-sm-12 col-md-12 col-lg-8 col-xl-12 tm-block-col">
+    <div class="tm-bg-primary-dark tm-block tm-block-products" style="max-height: fit-content">
+        @{
+            List<AccountSubject> accountSubjects = new List<AccountSubject>();
+        }
+        @foreach (var course in @ViewBag.Courses)
+        {
+            <div class="col-12">
+                <span style="font-family:'Times New Roman', Times, serif; color:lemonchiffon; font-size:25px">Course Name:</span>
+                <h1 class="tm-block-title d-inline-block" style="font-size:2rem!important; font-family:'Times New Roman', Times, serif"> @course.Name</h1>
+            </div>
+            <div class="col-12">
+                <span style="font-family:'Times New Roman', Times, serif; color:lemonchiffon; font-size:20px">Begin at:</span>
+                <span class="tm-block-title d-inline-block" style="font-family:'Times New Roman', Times, serif; color:white; font-size:18px">
+                    @course.StartDate.ToString("dd/MM/yyyy")</span>
+            </div>
+            <div class="col-12">
+                <span style="font-family:'Times New Roman', Times, serif; color:lemonchiffon; font-size:20px">End at:</span>
+                <span class="tm-block-title d-inline-block" style="font-family:'Times New Roman', Times, serif; color:white; font-size:18px">
+                    @course.EndDate.ToString("dd/MM/yyyy")</span>
+            </div>
+
+            <div class="tm-product-table-container">
+                <table class="table table-hover tm-table-small tm-product-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Batch Name</th>
+                            <th scope="col">Subject</th>
+                            <th scope="col">Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var batch in course.Batches)
+                        {
+
+
+                            @foreach (var bs in batch.BatchSubjects)
+                            {
+                                <tr>
+                                    <td>@batch.Name</td>
+                                    <td>@bs.Subject.Name</td>
+                                    @{
+                                        accountSubjects = new List<AccountSubject>(bs.Subject.AccountSubjects);
+                                    }
+
+                                    @foreach (var accountSubject in accountSubjects.Where(a => a.AccountId == @ViewBag.Student.Id && a.CourseId == course.Id).ToList())
+                                    {
+                                        <td>@accountSubject.Score</td>
+                                        break;
+                                    }
+                                    
+                                    
+                                </tr>
+                            }
+
+                        }
+                    </tbody>
+                </table>
+                <hr>
+            </div>
+        }
+    </div>
+</div>

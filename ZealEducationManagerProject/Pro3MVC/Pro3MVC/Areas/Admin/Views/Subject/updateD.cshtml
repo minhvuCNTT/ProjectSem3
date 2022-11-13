@@ -1,0 +1,44 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+@using Pro3MVC.Models;
+@model AccountSubject;
+
+<div class="col-sm-12 col-md-12 col-lg-8 col-xl-12 tm-block-col">
+	<div class="tm-bg-primary-dark tm-block tm-block-products" style="min-height:400px!important">
+		<div class="tm-product-table-container">
+			<h4 style="color:#fff!important;margin-bottom:20px;">Student: </h4>
+			<h4 style="color:#fff!important;margin-bottom:20px;">@ViewBag.update.Subject.Name - @ViewBag.update.Account.Fullname</h4>
+			<form asp-area="admin" asp-controller="subject" asp-action="updateD" method="post">
+				<div>
+					<input type="hidden" asp-for="Id" />
+					<div>
+						<input asp-for="SubjectId"
+							   type="hidden"
+							   class="form-control validate"
+							   required />
+
+					</div>
+					<div class="form-group mb-3">
+						<input asp-for="AccountId"
+							   type="hidden"
+							   class="form-control validate"
+							   required />
+					</div>
+					<div class="form-group mb-3">
+						<input asp-for="Score"
+							   type="number"
+							   class="form-control validate"
+							   required min="0" max="10`"/>
+					</div>
+					<button type="submit" class="btnSearchS" style="color:#fff; background-color:#f5a623; border: 2px solid #f5a623;font-size: 90%; font-weight: 600;">
+						<i class="fas fa-check"></i> &nbsp; Update
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+

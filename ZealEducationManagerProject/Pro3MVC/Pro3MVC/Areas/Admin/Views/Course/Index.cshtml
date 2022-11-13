@@ -1,0 +1,80 @@
+﻿@model IEnumerable<Pro3MVC.Entities.CourseEntity>
+
+@{
+	Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+@if (TempData["checkDate"] != null)
+{
+	<p class="alert alert-warning" role="alert">
+		@TempData["checkDate"]
+	</p>
+}
+<div class="col-sm-12 col-md-12 col-lg-8 col-xl-12 tm-block-col">
+	<div class="tm-bg-primary-dark tm-block tm-block-products" style="max-height:fit-content!important">
+		<div class="tm-product-table-container">
+			<h2 style="color:cornsilk;font-family:'Times New Roman', Times, serif"><b>LIST OF COURSE</b></h2>
+			<table class="table table-hover tm-table-small tm-product-table">
+				<thead>
+					<tr>
+						<th scope="col">Course Name</th>
+						<th scope="col">Fee</th>
+						<th scope="col">Start Date</th>
+						<th scope="col">End Date</th>
+						<th scope="col">Status</th>
+						<th scope="col">&nbsp;</th>
+						<th scope="col">&nbsp;</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var item in ViewBag.listCourse)
+					{
+						<tr>
+							<td>
+								<a asp-area="admin" asp-controller="course" asp-action="listEnquiry"
+							   asp-route-id="@item.Id" style="color:#fff!important">
+									@item.Name
+								</a>
+							</td>
+							<td>
+								@item.Fee
+							</td>
+							<td>
+								@item.startDate.ToString("dd/MM/yyyy")
+							</td>
+							<td>
+								@item.endDate.ToString("dd/MM/yyyy")
+							</td>
+							<td>
+								@if (DateTime.Now >= item.startDate && DateTime.Now <= item.endDate)
+								{
+									<p style="margin-top:15px">Happening</p>
+								}
+								else if (DateTime.Now < item.startDate)
+								{
+									<p style="margin-top:15px">Coming Soon</p>
+								}
+								else
+								{
+									<p style="margin-top:15px">Closed</p>
+								}
+
+							</td>
+							<td>&nbsp;</td>
+							<td>
+								<a asp-area="admin" asp-controller="course" asp-action="update" asp-route-id="@item.Id" style="background-color:lemonchiffon;"
+								class="tm-product-delete-link"><i style="color:brown"><i class="fas fa-edit"></i></i></a>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+		<!-- table container -->
+		<a asp-area="admin" asp-controller="course" asp-action="add"
+		   class="btn btn-primary btn-block text-uppercase mb-3">
+			<i class="fas fa-plus">&nbsp; ADD COURSE</i>
+		</a>
+	</div>
+</div>

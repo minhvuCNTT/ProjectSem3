@@ -1,0 +1,75 @@
+﻿@{
+	Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+@model IEnumerable<Pro3MVC.Entities.SubjectEntity>
+
+<div class="col-sm-12 col-md-12 col-lg-8 col-xl-12 tm-block-col">
+
+	<div class="container mt-5">
+		<div class="row tm-content-row">
+			<div class="col-12 tm-block-col">
+				<div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+					<form method="get" asp-area="admin" asp-controller="subject" asp-action="search" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:aliceblue">
+                    <span style="color:cornsilk;font-family:'Times New Roman';font-size:20px;">Subject name: </span>
+					<input type="text" name="keyword" value="@ViewBag.Keyword" />
+                    <input type="submit" value="Search" style="background-color:lemonchiffon; border-color:lemonchiffon; color:brown;"/>
+                </form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="tm-product-table-container">
+		<div class="tm-bg-primary-dark tm-block tm-block-products" style="max-height:fit-content">
+			<h2 style="color:cornsilk;font-family:'Times New Roman', Times, serif"><b>DETAILS OF SUBJECTS</b></h2>
+			<table class="table table-hover tm-table-small tm-product-table">
+				<thead>
+					<tr>
+						<th scope="col">Subject Name</th>
+						<th scope="col">Batch</th>
+						<th scope="col">Course</th>
+						<th scope="col">Session</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var item in Model)
+					{
+						<tr>
+							<td>
+								<a asp-area="admin" asp-controller="subject" asp-action="detail"
+							   style="color:#fff!important" asp-route-id="@item.Id" >
+									@Html.DisplayFor(modelItem => item.Name)
+								</a>
+							</td>
+							<td>@Html.DisplayFor(modelItem => item.batchName)</td>
+							<td>@Html.DisplayFor(modelItem => item.courseName)</td>
+							<td>@Html.DisplayFor(modelItem => item.Sessions)</td>
+						</tr>
+					}
+
+				</tbody>
+			</table>
+
+
+		</div>
+
+		<!-- table container -->
+
+
+	</div>
+	<a asp-area="admin" asp-controller="subject" asp-action="listSubject"
+	   class="btn btn-primary btn-block text-uppercase mb-3">Subjects</a>
+</div>
+
+
+
+<script>
+	$(function() {
+		$(".tm-product-name").on("click", function() {
+			window.location.href = "edit-product.html";
+		});
+	});
+</script>
+

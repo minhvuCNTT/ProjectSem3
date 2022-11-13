@@ -1,0 +1,73 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+@using Pro3MVC.Models;
+@model Account;
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+
+<script>
+    $(function() {
+        $("#birthday").datepicker({ dateFormat: 'dd-mm-yy' });
+    });
+</script>
+
+<div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 mx-auto">
+    <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="tm-block-title d-inline-block">Add Student</h2>
+            </div>
+        </div>
+        <div class="row tm-edit-product-row">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+                <form method="post" asp-controller="account" asp-action="add" class="tm-edit-product-form" enctype="multipart/form-data">
+                    <div class="form-group mb-3">
+                        <label for="name">
+                            Fullname
+                        </label>
+                        <input type="text" asp-for="Fullname"
+                               class="form-control validate">
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="description">Username</label> <b style="color:lightcoral;">&nbsp; @ViewBag.error</b>
+                        <input type="text" asp-for="Username"
+                               class="form-control validate"
+                               required /> 
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="description">Password</label>
+                        <input type="password" asp-for="Password"
+                               class="form-control validate"
+                               required />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="description">Birhtday(dd-MM-yyyy)</label>
+                        <input type="text" name="birthday" id="birthday"
+                               class="form-control validate"
+                               required />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="description">Email</label>
+                        <input type="text" asp-for="Email"
+                               class="form-control validate"
+                               required />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="description">Photo</label>
+                        <input type="file" name="file" class="form-control validate"
+                               style="padding:10px 18px; font-family:'Times New Roman', Times, serif;"
+                               id="file-uploader" accept=".jpg, .png" />
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary btn-block text-uppercase">
+<i class="fas fa-check"></i> Add Student Now</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>

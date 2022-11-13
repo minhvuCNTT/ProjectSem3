@@ -1,0 +1,49 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+
+<div class="col-sm-12 col-md-12 col-lg-8 col-xl-12 tm-block-col">
+    <div class="tm-bg-primary-dark tm-block tm-block-products">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="tm-block-title d-inline-block" style="font-size:2rem!important">STUDENT REPORT</h1>
+            </div>
+        </div>
+        <div class="tm-product-table-container">
+            <table class="table table-hover tm-table-small tm-product-table">
+                 <thead>
+                        <tr>
+                            <th scope="col">Fullname</th>
+                            <th scope="col">Username</th>
+                            <th scope="col">Date of Birth</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Photo</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">&nbsp;</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var acc in ViewBag.Accounts)
+                        {
+                            <tr>
+                                <td class="tm-product-name">@acc.Fullname</td>
+                                <td>@acc.Username</td>
+                                <td>@acc.Dob.ToString("dd/MM/yyyy")</td>
+                                <td>@acc.Email</td>
+                                <td><img src="~/img/@acc.Photo" width="120" height="120" /></td>
+                                <td>@(acc.Status ? "Active" : "Inactive")</td>
+                                <td>
+                                    <a asp-area="admin" asp-controller="report" asp-action="scoredetail" style="background-color:lemonchiffon"
+                                        asp-route-id="@acc.Id" class="btn btn-primary btn-block text-uppercase mb-2"><i style="color:brown">Detail</i></a>
+                                </td>
+                            </tr>
+                        }
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

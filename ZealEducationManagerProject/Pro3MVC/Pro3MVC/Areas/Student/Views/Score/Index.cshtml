@@ -1,0 +1,69 @@
+﻿{
+    Layout = "~/Areas/Student/Views/Shared/_StudentLayout.cshtml";
+
+}
+
+<div class="col-sm-12 col-md-12 col-lg-8 col-xl-12 tm-block-col">
+    <div class="container mt-5">
+        <div class="row tm-content-row">
+          <div class="col-12 tm-block-col">
+            <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+              <select class="custom-select" style="width:700px">
+                <option value="0">Select course</option>
+                <option value="1">Course 1</option>
+                <option value="2">Course 2</option>
+              </select>
+              <button type="submit" class="btnSearchC" style="color:#fff; background-color:#f5a623; border: 2px solid #f5a623;font-size: 90%; font-weight: 600; height:50px; width:100px">Search</button>
+            </div>
+
+          </div>
+        </div>
+    <div class="tm-product-table-container">
+    <div class="tm-bg-primary-dark tm-block tm-block-products">
+        
+            <table class="table table-hover tm-table-small tm-product-table">
+                <thead>
+                    <tr style="text-align:center">
+
+	                    <td rowspan="2">BATCH</td>
+	                    <td rowspan="2">TIMES</td>
+	                    <td rowspan="2">SUBJECT</td>
+	                    <td colspan="2" >SCORE</td>
+	                    <td rowspan="2">CEFR LEVEL</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr style="text-align:center">
+	                    <td >Band Score</td>
+	                    <td >Average Score</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="text-align:center">
+                        <td class="tm-product-name" rowspan="2">1</td>
+                        <td>2022</td>
+                        <td>Listening</td>
+                        <td>9.0</td>
+                        <td rowspan="2" >9.0</td>
+                        <td rowspan="2">A++</td>
+                    </tr>
+                    <tr style="text-align:center">
+                        <td>2022</td>
+                        <td>Reading</td>
+                        <td style="text-align:center">9.0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    $(function() {
+        $(".tm-product-name").on("click", function() {
+            window.location.href = "edit-product.html";
+        });
+    });
+</script>

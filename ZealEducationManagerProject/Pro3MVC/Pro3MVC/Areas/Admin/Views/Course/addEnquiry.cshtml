@@ -1,0 +1,57 @@
+﻿@{
+	Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+@using Pro3MVC.Entities;
+
+@model EnquiryEntity;
+
+
+
+
+<div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 mx-auto">
+	<div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="tm-block-title d-inline-block">Add Subject</h2>
+			</div>
+		</div>
+		<div class="row tm-edit-product-row">
+			<form asp-area="admin" asp-controller="course" asp-action="addEnquiry" method="post" class="tm-edit-product-form">
+				
+				<div class="col-xl-6 col-lg-6 col-md-12">
+					<input type="hidden" name="cid" value= @ViewBag.IdCourse> 
+					@*<p style="color: darkred">@TempData["exists"]</p>*@
+					<div class="form-group mb-3">
+						<label>
+							Question
+						</label>
+						<textarea asp-for="Question" required cols="50"></textarea>
+					</div>
+					<div class="form-group mb-3">
+						<label>
+							Answer
+						</label>
+						<br/>
+						<textarea asp-for="Answer" required cols="50" rows="10"></textarea>
+					</div>
+				</div>
+				<div class="col-12">
+					<button type="submit" class="btn btn-primary btn-block text-uppercase">Add Now</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+<script>
+	$(function() {
+		$("#expire_date").datepicker();
+	});
+</script>
+
+
+
+
